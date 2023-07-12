@@ -7,7 +7,7 @@
   
 run command ```brain-even``` to execute game "Is number even?"
   
-<script async id="asciicast-9MV6QUu0rYwXirH5Mpngtu5i8" src="https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.js"></script>
+<a href="https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8" target="_blank"><img src="https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg" /></a>
   
 </details>
 <details>
