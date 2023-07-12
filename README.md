@@ -13,8 +13,16 @@ To install the package run the command:
 ```python3 -m pip install --user git+https://github.com/dmkael/python-project-49.git```
 
 </details>
-You can run the main app or run each game separately
-
+You can run the main app 
+<details>
+  <summary>Start games</summary>
+  
+run command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start.
+  
+[![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
+  
+</details>
+or run each game separately
 <details>
   <summary>Game 1: "Is the number even?"</summary>
   
