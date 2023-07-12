@@ -11,14 +11,35 @@ run command ```brain-even``` to execute game "Is number even?"
   
 </details>
 <details>
-  <summary>command brain-even</summary>
+  <summary>command brain-calc</summary>
   
 run command ```brain-calc``` to execute game "Simple math"
   
 [![asciicast](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57.svg)](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57)
   
 </details>
-
+<details>
+  <summary>command brain-gcd</summary>
+  
+run command ```brain-gcd``` to execute game "Max common divider"
+  
 [![asciicast](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70.svg)](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70)
+  
+</details>
+<details>
+  <summary>command brain-progression</summary>
+  
+run command ```brain-progression``` to execute game "Arithmetic progression"
+  
 [![asciicast](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr.svg)](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr)
+  
+</details>
+<details>
+  <summary>command brain-prime</summary>
+  
+run command ```brain-prime``` to execute game "Is number prime?"
+  
 [![asciicast](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy.svg)](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy)
+  
+</details>
+
