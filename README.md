@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/05d53411058b9c926d08/maintainability)](https://codeclimate.com/github/dmkael/python-project-49/maintainability)
 
 ### Brain games
-## (Course project 1)
+##### (Course project 1)
 A small set of 5 arithmetical mini-games for Python.
 To install the package run the command:
 
