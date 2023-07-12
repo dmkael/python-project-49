@@ -13,21 +13,19 @@ To install the package run the command:
 ```python3 -m pip install --user git+https://github.com/dmkael/python-project-49.git```
 
 </details>
-You can run the main app with all games 
+You can run the main app with all games: 
 <details>
   <summary>Start games</summary>
   
-run the command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start. Answer 3 times correctly to win! You can restart at the end.
-  
+run the command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game you want to play and game will start. Answer 3 times correctly to win! You can restart at the end.
 [![asciicast](https://asciinema.org/a/fgHCYSNKe4vFlCQ29tvE4vbyK.svg)](https://asciinema.org/a/fgHCYSNKe4vFlCQ29tvE4vbyK)
   
 </details>
-or run each game separately
+or run each game separately:
 <details>
   <summary>Game 1: "Is the number even?"</summary>
   
 run the command ```brain-even``` to execute the game "Is the number even?"
-  
 [![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
 </details>
@@ -35,7 +33,6 @@ run the command ```brain-even``` to execute the game "Is the number even?"
   <summary>Game 2: "Simple Math"</summary>
   
 run the command ```brain-calc``` to execute the game "Simple Math"
-  
 [![asciicast](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57.svg)](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57)
   
 </details>
@@ -43,7 +40,6 @@ run the command ```brain-calc``` to execute the game "Simple Math"
   <summary>Game 3: "Max common divider"</summary>
   
 run the command ```brain-gcd``` to execute the game "Max common divider"
-  
 [![asciicast](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70.svg)](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70)
   
 </details>
