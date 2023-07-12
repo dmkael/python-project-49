@@ -19,7 +19,7 @@ You can run the main app with all games
   
 run the command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start. Answer 3 times correctly to win! You can restart at the end.
   
-[![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
+[![asciicast](https://asciinema.org/a/fgHCYSNKe4vFlCQ29tvE4vbyK.svg)](https://asciinema.org/a/fgHCYSNKe4vFlCQ29tvE4vbyK)
   
 </details>
 or run each game separately
