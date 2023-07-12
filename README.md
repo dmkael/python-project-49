@@ -6,14 +6,14 @@
 ##### (Course project 1)
 A small set of 5 arithmetical mini-games for Python.
 <details>
-  <summary>Installation</summary>
+  <summary>How to install</summary>
   
 To install the package run the command:
 
 ```python3 -m pip install --user git+https://github.com/dmkael/python-project-49.git```
 
 </details>
-You can run the main app 
+You can run the main app with all games 
 <details>
   <summary>Start games</summary>
   
@@ -63,7 +63,10 @@ run the command ```brain-prime``` to execute the game "Is the number prime?"
 [![asciicast](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy.svg)](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy)
   
 </details>
-
+<details>
+  <summary>How to uninstall</summary>
+  
 To uninstall the package run the command 
 
 ```python3 -m pip uninstall hexlet-code```
+<details>
