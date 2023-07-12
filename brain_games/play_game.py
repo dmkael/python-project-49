@@ -24,8 +24,12 @@ def play_game(name, game):
 def brain_games():
     print("Welcome to the Brain Games!")
     name = welcome_user()
-    game = choose_game()
-    play_game(name, game)
+    while True:
+        game = choose_game()
+        play_game(name, game)
+        run_again = prompt.string("Play new game? y/n ")
+        if run_again != 'y':
+            break
 
 
 if __name__ == "__main__":

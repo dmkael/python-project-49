@@ -13,7 +13,7 @@ def choose_game():
 3 - Max common divider
 4 - Arithmetic progression
 5 - Is number prime?
-Your game: """)
+Enter game number : """)
     match chosen_game:
         case "1":
             print(even()[0])
