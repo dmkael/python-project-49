@@ -17,7 +17,7 @@ You can run the main app with all games
 <details>
   <summary>Start games</summary>
   
-run the command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start.
+run the command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start. Answer 3 times correctly to win! You can restart at the end.
   
 [![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
