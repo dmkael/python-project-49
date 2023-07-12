@@ -66,7 +66,7 @@ run the command ```brain-prime``` to execute the game "Is the number prime?"
 <details>
   <summary>How to uninstall</summary>
   
-To uninstall the package run the command 
+To uninstall the package run the command: 
 
 ```python3 -m pip uninstall hexlet-code```
-<details>
+</details>
