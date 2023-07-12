@@ -2,42 +2,44 @@
 [![Actions Status](https://github.com/dmkael/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/dmkael/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05d53411058b9c926d08/maintainability)](https://codeclimate.com/github/dmkael/python-project-49/maintainability)
 
+A small set of 5 arithmetical mini-games.
+
 <details>
-  <summary>command brain-even</summary>
+  <summary>Game 1: "Is number even?"</summary>
   
-run command ```brain-even``` to execute game "Is number even?"
+run command ```brain-even``` to execute the game "Is number even?"
   
-<a href="https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8" target="_blank"><img src="https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg" /></a>
+[![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
 </details>
 <details>
-  <summary>command brain-calc</summary>
+  <summary>Game 2: "Simple math"</summary>
   
-run command ```brain-calc``` to execute game "Simple math"
+run command ```brain-calc``` to execute the game "Simple math"
   
 [![asciicast](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57.svg)](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57)
   
 </details>
 <details>
-  <summary>command brain-gcd</summary>
+  <summary>Game 3: "Max common divider"</summary>
   
-run command ```brain-gcd``` to execute game "Max common divider"
+run command ```brain-gcd``` to execute the game "Max common divider"
   
 [![asciicast](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70.svg)](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70)
   
 </details>
 <details>
-  <summary>command brain-progression</summary>
+  <summary>Game 4: "Arithmetic progression"</summary>
   
-run command ```brain-progression``` to execute game "Arithmetic progression"
+run command ```brain-progression``` to execute the game "Arithmetic progression"
   
 [![asciicast](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr.svg)](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr)
   
 </details>
 <details>
-  <summary>command brain-prime</summary>
+  <summary>Game 5: "Is number prime?"</summary>
   
-run command ```brain-prime``` to execute game "Is number prime?"
+run command ```brain-prime``` to execute the game "Is number prime?"
   
 [![asciicast](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy.svg)](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy)
   
