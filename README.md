@@ -10,8 +10,15 @@ run command ```brain-even``` to execute game "Is number even?"
 [![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
 </details>
-
+<details>
+  <summary>command brain-even</summary>
+  
+run command ```brain-calc``` to execute game "Simple math"
+  
 [![asciicast](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57.svg)](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57)
+  
+</details>
+
 [![asciicast](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70.svg)](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70)
 [![asciicast](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr.svg)](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr)
 [![asciicast](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy.svg)](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy)
