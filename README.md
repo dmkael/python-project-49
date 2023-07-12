@@ -17,7 +17,7 @@ You can run the main app
 <details>
   <summary>Start games</summary>
   
-run command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start.
+run the command ```brain-start``` to execute the main app with 5 mini-games. You will be prompted to select the game. Enter the number of game which you want and game will start.
   
 [![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
@@ -26,7 +26,7 @@ or run each game separately
 <details>
   <summary>Game 1: "Is the number even?"</summary>
   
-run command ```brain-even``` to execute the game "Is the number even?"
+run the command ```brain-even``` to execute the game "Is the number even?"
   
 [![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
@@ -34,7 +34,7 @@ run command ```brain-even``` to execute the game "Is the number even?"
 <details>
   <summary>Game 2: "Simple Math"</summary>
   
-run command ```brain-calc``` to execute the game "Simple Math"
+run the command ```brain-calc``` to execute the game "Simple Math"
   
 [![asciicast](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57.svg)](https://asciinema.org/a/0sYvGWOpjBhkg53QEb4bw7g57)
   
@@ -42,7 +42,7 @@ run command ```brain-calc``` to execute the game "Simple Math"
 <details>
   <summary>Game 3: "Max common divider"</summary>
   
-run command ```brain-gcd``` to execute the game "Max common divider"
+run the command ```brain-gcd``` to execute the game "Max common divider"
   
 [![asciicast](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70.svg)](https://asciinema.org/a/ZTcK7uJIjbE6nXldt8o8qVf70)
   
@@ -50,7 +50,7 @@ run command ```brain-gcd``` to execute the game "Max common divider"
 <details>
   <summary>Game 4: "Arithmetic progression"</summary>
   
-run command ```brain-progression``` to execute the game "Arithmetic progression"
+run the command ```brain-progression``` to execute the game "Arithmetic progression"
   
 [![asciicast](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr.svg)](https://asciinema.org/a/tSSNsWqRCARwsgNCkTZUijpVr)
   
@@ -58,7 +58,7 @@ run command ```brain-progression``` to execute the game "Arithmetic progression"
 <details>
   <summary>Game 5: "Is the number prime?"</summary>
   
-run command ```brain-prime``` to execute the game "Is the number prime?"
+run the command ```brain-prime``` to execute the game "Is the number prime?"
   
 [![asciicast](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy.svg)](https://asciinema.org/a/jLHp6nkGwTQcnlUWAOUPLPUsy)
   
