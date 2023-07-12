@@ -3,9 +3,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/05d53411058b9c926d08/maintainability)](https://codeclimate.com/github/dmkael/python-project-49/maintainability)
 
 <details>
-  <summary>Spoiler warning</summary>
+  <summary>command brain-even</summary>
   
-  brain-even
+run command ```brain-even``` to execute game "Is number even?"
   
 [![asciicast](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8.svg)](https://asciinema.org/a/9MV6QUu0rYwXirH5Mpngtu5i8)
   
