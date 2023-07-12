@@ -14,6 +14,7 @@ To install the package run the command:
 
 </details>
 You can run the main app or run each game separately
+
 <details>
   <summary>Game 1: "Is the number even?"</summary>
   
