@@ -8,11 +8,11 @@ from brain_games.games.game_prime import prime
 
 def choose_game():
     chosen_game = prompt.string("""\nSelect your game by number:
-1 - Is number even?
-2 - Simple math
+1 - Is the number even?
+2 - Simple Math
 3 - Max common divider
 4 - Arithmetic progression
-5 - Is number prime?
+5 - Is the number prime?
 Enter game number : """)
     match chosen_game:
         case "1":

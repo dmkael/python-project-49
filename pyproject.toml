@@ -1,7 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Small collection of 5 mathematical mini-games"
+classifiers = ["Topic :: Games/Entertainment"]
+repository = "https://github.com/dmkael/python-project-49"
 authors = ["dmkael <tanmaar@gmail.com>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
