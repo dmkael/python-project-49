@@ -4,6 +4,7 @@
 
 A small set of 5 arithmetical mini-games for Python.
 To install the package run command:
+
 ```python3 -m pip install --user git+https://github.com/dmkael/python-project-49.git```
 
 You can run the main app or run each game separately
