@@ -3,7 +3,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/05d53411058b9c926d08/maintainability)](https://codeclimate.com/github/dmkael/python-project-49/maintainability)
 
 A small set of 5 arithmetical mini-games for Python.
-To install the package run command ```python3 -m pip install --user git+https://github.com/dmkael/python-project-49.git```
+To install the package run command:
+```python3 -m pip install --user git+https://github.com/dmkael/python-project-49.git```
 
 You can run the main app or run each game separately
 <details>
