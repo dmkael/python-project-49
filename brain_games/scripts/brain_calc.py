@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.play_game import play_game
-from brain_games.cli import welcome_user
+from brain_games.play_one_game import play_one_game
+from brain_games.games.game_calc import game_calc
 
 
 def calculate():
-    print("Welcome to the Brain Games!")
-    name = welcome_user()
-    print("What is the result of the expression?")
-    play_game(name, "calc()")
+    play_one_game(game_calc)
 
 
 if __name__ == "__main__":

@@ -1,23 +1,22 @@
 import random
+import operator
+QUESTION = "What is the result of the expression?"
 
 
-def calc():
-    question = "What is the result of the expression?"
-    num1 = random.randint(0, 10)
-    num2 = random.randint(0, 10)
-    operator = random.choice(['+', '-', '*'])
+def action(instruction):
+    if instruction == '+':
+        return operator.add
+    if instruction == '-':
+        return operator.sub
+    if instruction == '*':
+        return operator.mul
 
-    expression = f"{num1} {operator} {num2}"
 
-    if operator == '+':
-        result = num1 + num2
-    if operator == '-':
-        result = num1 - num2
-    if operator == '*':
-        result = num1 * num2
+def game_calc():
+    num1 = random.randint(0, 20)
+    num2 = random.randint(0, 20)
+    instruction = random.choice(['+', '-', '*'])
+    task_phrase = f"{num1} {instruction} {num2}"
+    result = action(instruction)(num1, num2)
     result = str(result)
-    return question, expression, result
-
-
-if __name__ == "__main__":
-    calc()
+    return QUESTION, task_phrase, result

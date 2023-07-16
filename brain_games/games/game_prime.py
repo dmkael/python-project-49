@@ -1,21 +1,19 @@
 import random
+QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def prime():
-    question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    expression = random.randint(0, 99)
-    if expression < 2:
-        result = "no"
-        return question, expression, result
+def is_prime(num):
+    if num < 2:
+        return False
     divider = 2
-    while divider < expression // 2 + 1:
-        if expression % divider == 0:
-            result = "no"
-            return question, expression, result
+    while divider < num // 2 + 1:
+        if num % divider == 0:
+            return False
         divider += 1
-    result = "yes"
-    return question, expression, result
+    return True
 
 
-if __name__ == "__main__":
-    prime()
+def game_prime():
+    task_phrase = random.randint(0, 99)
+    result = is_prime(task_phrase) and 'yes' or 'no'
+    return QUESTION, task_phrase, result

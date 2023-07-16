@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.play_game import play_game
-from brain_games.cli import welcome_user
+from brain_games.play_one_game import play_one_game
+from brain_games.games.game_prime import game_prime
 
 
-def is_prime():
-    print("Welcome to the Brain Games!")
-    name = welcome_user()
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    play_game(name, "prime()")
+def prime_or_no():
+    play_one_game(game_prime)
 
 
 if __name__ == "__main__":
-    is_prime()
+    prime_or_no()

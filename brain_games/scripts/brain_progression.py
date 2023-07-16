@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.play_game import play_game
-from brain_games.cli import welcome_user
+from brain_games.play_one_game import play_one_game
+from brain_games.games.game_progression import game_progression
 
 
 def progression():
-    print("Welcome to the Brain Games!")
-    name = welcome_user()
-    print("What number is missing in the progression?")
-    play_game(name, "progression()")
+    play_one_game(game_progression)
 
 
 if __name__ == "__main__":
