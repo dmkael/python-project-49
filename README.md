@@ -4,6 +4,7 @@
 
 ### Brain games
 ##### (Course project 1)
+
 A small set of 5 arithmetical mini-games for Python.
 <details>
   <summary>How to install</summary>
