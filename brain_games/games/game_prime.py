@@ -14,6 +14,7 @@ def is_prime(num):
 
 
 def game_prime():
-    task_phrase = random.randint(0, 99)
-    result = is_prime(task_phrase) and 'yes' or 'no'
+    num = random.randint(0, 99)
+    task_phrase = f"{num}"
+    result = is_prime(num) and 'yes' or 'no'
     return QUESTION, task_phrase, result
