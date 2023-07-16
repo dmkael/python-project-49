@@ -11,7 +11,7 @@ def generate_progression(prog_length, progressor, start_num):
     return progression
 
 
-def game_progression():
+def run_progression():
     prog_length = random.randint(8, 13)
     progressor = random.randint(2, 10)
     start_num = random.randint(0, 50)

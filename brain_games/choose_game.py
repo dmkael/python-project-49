@@ -1,9 +1,9 @@
 import prompt
-from brain_games.games.game_calc import game_calc
-from brain_games.games.game_even import game_even
-from brain_games.games.game_gcd import game_gcd
-from brain_games.games.game_progression import game_progression
-from brain_games.games.game_prime import game_prime
+from brain_games.games.game_calc import run_calc
+from brain_games.games.game_even import run_even
+from brain_games.games.game_gcd import run_gcd
+from brain_games.games.game_progression import run_progression
+from brain_games.games.game_prime import run_prime
 
 
 def choose_game():
@@ -16,15 +16,15 @@ def choose_game():
 Enter game number : """)
     match chosen_game:
         case "1":
-            return game_even
+            return run_even
         case "2":
-            return game_calc
+            return run_calc
         case "3":
-            return game_gcd
+            return run_gcd
         case "4":
-            return game_progression
+            return run_progression
         case "5":
-            return game_prime
+            return run_prime
         case _:
             print("Unknown game number. Program stopped")
             return exit()

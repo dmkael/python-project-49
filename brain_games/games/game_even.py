@@ -6,7 +6,7 @@ def is_even(num):
     return num % 2 == 0
 
 
-def game_even():
+def run_even():
     task_phrase = random.randint(1, 99)
     result = is_even(task_phrase) and "yes" or "no"
     return QUESTION, task_phrase, result

@@ -12,7 +12,7 @@ def action(instruction):
         return operator.mul
 
 
-def game_calc():
+def run_calc():
     num1 = random.randint(0, 20)
     num2 = random.randint(0, 20)
     instruction = random.choice(['+', '-', '*'])
