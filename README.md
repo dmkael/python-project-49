@@ -1,9 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/dmkael/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/dmkael/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05d53411058b9c926d08/maintainability)](https://codeclimate.com/github/dmkael/python-project-49/maintainability)
-
 ### Brain games
 ##### (Course project 1)
+
 A small set of 5 arithmetical mini-games for Python.
 <details>
   <summary>How to install</summary>
