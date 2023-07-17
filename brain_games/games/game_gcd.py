@@ -1,6 +1,6 @@
 import random
 import math
-QUESTION = "Find the greatest common divisor of given numbers."
+TASK = "Find the greatest common divisor of given numbers."
 
 
 def run_gcd():

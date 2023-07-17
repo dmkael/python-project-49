@@ -1,6 +1,6 @@
 import random
 
-QUESTION = "What number is missing in the progression?"
+TASK = "What number is missing in the progression?"
 
 
 def generate_progression(prog_length, progressor, start_num):
