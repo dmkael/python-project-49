@@ -1,6 +1,6 @@
 import random
 import operator
-QUESTION = "What is the result of the expression?"
+TASK = "What is the result of the expression?"
 
 
 def action(instruction):

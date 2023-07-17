@@ -2,9 +2,9 @@ import prompt
 MAX_ROUNDS = 3
 
 
-def execute_game(question, name, game):
+def execute_game(task, name, game):
     current_round = 1
-    print(question)
+    print(task)
     while current_round <= MAX_ROUNDS:
         task_phrase, result = game()
         answer = prompt.string(f"Question: {task_phrase} ")
