@@ -19,4 +19,4 @@ def run_calc():
     task_phrase = f"{num1} {instruction} {num2}"
     result = action(instruction)(num1, num2)
     result = str(result)
-    return QUESTION, task_phrase, result
+    return task_phrase, result

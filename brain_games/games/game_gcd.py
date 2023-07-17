@@ -9,4 +9,4 @@ def run_gcd():
     task_phrase = f"{num1} {num2}"
     result = math.gcd(num1, num2)
     result = str(result)
-    return QUESTION, task_phrase, result
+    return task_phrase, result

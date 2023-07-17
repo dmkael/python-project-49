@@ -17,4 +17,4 @@ def run_prime():
     num = random.randint(0, 99)
     task_phrase = f"{num}"
     result = is_prime(num) and 'yes' or 'no'
-    return QUESTION, task_phrase, result
+    return task_phrase, result

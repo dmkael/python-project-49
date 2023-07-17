@@ -1,4 +1,4 @@
-from brain_games.play_all_games import play_all_games
+from brain_games.start_all_games import play_all_games
 
 
 def main():

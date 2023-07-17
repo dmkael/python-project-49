@@ -1,18 +1,17 @@
 import prompt
-ROUNDS = 3
+MAX_ROUNDS = 3
 
 
-def execute_game(name, game):
-    points = 0
-    question = game()[0]
+def execute_game(question, name, game):
+    current_round = 1
     print(question)
-    while points < ROUNDS:
-        task_phrase, result = game()[1:]
+    while current_round <= MAX_ROUNDS:
+        task_phrase, result = game()
         answer = prompt.string(f"Question: {task_phrase} ")
         print(f"Your answer is: {answer}")
         if answer == result:
             print("Correct!")
-            points += 1
+            current_round += 1
         else:
             print(f"'{answer}' is wrong answer ;(."
                   f" Correct answer was '{result}'\n"

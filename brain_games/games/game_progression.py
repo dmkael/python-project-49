@@ -20,7 +20,7 @@ def run_progression():
     result = task_phrase[random.randint(0, prog_length)]
     # replace chosen result with dots to 'hide' result
     task_phrase[task_phrase.index(result)] = ".."
-    # convert task phrase list to str
+    # convert task phrase from list to string
     task_phrase = ' '.join(str(i) for i in task_phrase)
     result = str(result)
-    return QUESTION, task_phrase, result
+    return task_phrase, result
