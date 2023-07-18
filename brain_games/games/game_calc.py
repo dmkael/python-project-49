@@ -3,7 +3,7 @@ import operator
 TASK = "What is the result of the expression?"
 
 
-def run_instruction(instruction):
+def get_operation(instruction):
     if instruction == '+':
         return operator.add
     if instruction == '-':
@@ -17,6 +17,6 @@ def run_calc():
     num2 = random.randint(0, 20)
     instruction = random.choice(['+', '-', '*'])
     task_phrase = f"{num1} {instruction} {num2}"
-    result = run_instruction(instruction)(num1, num2)
+    result = get_operation(instruction)(num1, num2)
     result = str(result)
     return task_phrase, result
