@@ -5,22 +5,22 @@ TASK = "What number is missing in the progression?"
 
 def generate_progression(prog_length, progressor, start_num):
     progression = [start_num]
-    for index in range(1, prog_length + 1):
+    for index in range(1, prog_length):
         start_num += progressor
         progression.append(start_num)
     return progression
 
 
 def run_progression():
-    prog_length = random.randint(8, 13)
+    prog_length = random.randint(9, 11)
     progressor = random.randint(2, 10)
     start_num = random.randint(0, 50)
-    task_phrase = generate_progression(prog_length, progressor, start_num)
-    # random choice for result from task phrase progression
-    result = task_phrase[random.randint(0, prog_length)]
-    # replace chosen result with dots to 'hide' result
-    task_phrase[task_phrase.index(result)] = ".."
-    # convert task phrase from list to string
-    task_phrase = ' '.join(str(i) for i in task_phrase)
+    progression = generate_progression(prog_length, progressor, start_num)
+
+    result_index = random.randint(0, prog_length - 1)
+    result = progression[result_index]
+    progression[result_index] = ".."
+
+    task_phrase = " ".join(str(i) for i in progression)
     result = str(result)
     return task_phrase, result

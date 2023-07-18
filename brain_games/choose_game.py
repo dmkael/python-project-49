@@ -14,17 +14,16 @@ def choose_game():
 4 - Arithmetic progression
 5 - Is the number prime?
 Enter game number : """)
-    match chosen_game:
-        case "1":
-            return TASK1, run_even
-        case "2":
-            return TASK2, run_calc
-        case "3":
-            return TASK3, run_gcd
-        case "4":
-            return TASK4, run_progression
-        case "5":
-            return TASK5, run_prime
-        case _:
-            print("Unknown game number. Program stopped")
-            return exit()
+    if chosen_game == "1":
+        return TASK1, run_even
+    if chosen_game == "2":
+        return TASK2, run_calc
+    if chosen_game == "3":
+        return TASK3, run_gcd
+    if chosen_game == "4":
+        return TASK4, run_progression
+    if chosen_game == "5":
+        return TASK5, run_prime
+    else:
+        print("Unknown game number. Program stopped")
+        exit()

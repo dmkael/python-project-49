@@ -1,4 +1,5 @@
 import random
+
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
@@ -8,6 +9,7 @@ def is_even(num):
 
 
 def run_even():
-    task_phrase = random.randint(1, 99)
-    result = is_even(task_phrase) and "yes" or "no"
+    num = random.randint(1, 99)
+    result = "yes" if is_even(num) else "no"
+    task_phrase = f"{num}"
     return task_phrase, result
