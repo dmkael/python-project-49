@@ -8,8 +8,8 @@ def play_all_games():
     print("Welcome to the Brain Games!")
     name = welcome_user()
     while True:
-        task, game = choose_game()
-        execute_game(task, name, game)
+        task, run_game = choose_game()
+        execute_game(task, name, run_game)
         run_again = prompt.string("Play new game? y/n ")
         if run_again != 'y':
             break

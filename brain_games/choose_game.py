@@ -25,5 +25,5 @@ Enter game number : """)
         print("Unknown game number. Program stopped")
         exit()
     else:
-        task, game = game_base.get(chosen_game)
-    return task, game
+        task, run_game = game_base.get(chosen_game)
+    return task, run_game
