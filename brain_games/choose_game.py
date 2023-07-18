@@ -14,6 +14,7 @@ def choose_game():
 4 - Arithmetic progression
 5 - Is the number prime?
 Enter game number : """)
+    chosen_game = chosen_game.strip()
     game_base = {
         "1": (TASK1, run_even),
         "2": (TASK2, run_calc),
