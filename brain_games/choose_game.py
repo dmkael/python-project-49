@@ -15,15 +15,16 @@ def choose_game():
 5 - Is the number prime?
 Enter game number : """)
     if chosen_game == "1":
-        return TASK1, run_even
-    if chosen_game == "2":
-        return TASK2, run_calc
-    if chosen_game == "3":
-        return TASK3, run_gcd
-    if chosen_game == "4":
-        return TASK4, run_progression
-    if chosen_game == "5":
-        return TASK5, run_prime
+        task, game = TASK1, run_even
+    elif chosen_game == "2":
+        task, game = TASK2, run_calc
+    elif chosen_game == "3":
+        task, game = TASK3, run_gcd
+    elif chosen_game == "4":
+        task, game = TASK4, run_progression
+    elif chosen_game == "5":
+        task, game = TASK5, run_prime
     else:
         print("Unknown game number. Program stopped")
         exit()
+    return task, game
